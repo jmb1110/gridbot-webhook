@@ -17,11 +17,11 @@ USE_EXTENDED_HOURS = True
 BUY_VALUE = 25.0
 STATE_FILE = "gridbot_webhook_state.json"
 
-API_KEY = "12508304ZDxcveCQujvwyrRKbhJSpdnxnjWUI"
-API_SECRET = "aN4LPuCiPOK8Xh-BdvWt4pJzN82XMvdupVpGzEOKOII"
+API_KEY = "API_KEY"
+API_SECRET = "API_SECRET"
 
 # Shared secret to stop random requests hitting your webhook
-WEBHOOK_SECRET = "apple-test-secret-123"
+WEBHOOK_SECRET = "WEBHOOK_SECRET"
 
 BASE_URL = "https://demo.trading212.com/api/v0" if USE_DEMO else "https://live.trading212.com/api/v0"
 
