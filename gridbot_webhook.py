@@ -21,7 +21,7 @@ API_KEY = os.getenv("API_KEY","")
 API_SECRET = os.getenv("API_SECRET","")
 
 # Shared secret to stop random requests hitting your webhook
-WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET,"")
+WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET","")
 
 BASE_URL = "https://demo.trading212.com/api/v0" if USE_DEMO else "https://live.trading212.com/api/v0"
 
